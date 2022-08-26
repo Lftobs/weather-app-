@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 92vh;
+    background:url("bg7");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    
+}
+.input {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+input {
+    width: 50%;
+    height: 2rem;
+    border: none;
+    background: hsl(0,0%,0%, 0.3);
+    color: whitesmoke;
+    padding-left: 1rem;
+    outline: none;
+    transition: 2s ease;
+    border-radius: 1rem 0 0 1rem;
+}
+
+input:hover, input:active {
+    width: 60%;
+}
+
+button {
+   width: 20%; 
+   height: 2rem;
+   background: transparent;
+   transition: 2s ease;
+   color: whitesmoke;
+   font-weight: 700;
+   outline: none;
+   border: 2px solid whitesmoke;
+   border-radius: 0 1rem 1rem 0;
+}
+
+button:hover {
+    background: hsl(0,0%,0%, 0.3);
+}
+
+.weather-sec {
+    text-align: center;
+    margin-top: 15%;    
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h2, h3, small {
+    color: whitesmoke;
+}
+
+.cl { 
+    font-size: 14px;
+}
+
+.others{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    transition: 10s ease;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    color: whitesmoke;
+    margin-bottom: .3rem;
+}
+
+
+table {
+    width: 100%;
+    color: whitesmoke;
+    
+    padding-block: .5rem ;
+    /*margin-top: 37vh;*/
+    border-top: 1px solid black;
+    margin-bottom: 0;
+}
+
+td, th {
+    border-bottom: 1px solid black;
+}
+
+th {
+    text-align: left;
+    height: 2rem;
+    padding-left: 1rem;
+    /*background: green;*/
+}
+
+.th, .td {
+    border-bottom: none;
+    
+}
+
